@@ -1,0 +1,167 @@
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+.histoire {
+    display: flex;
+    margin-top: 60px;
+}
+
+.text_histoire {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    width: 900px;
+    text-align: center;
+}
+
+.text_histoire p {
+    height: auto;
+    width: 800px;
+    font-size: 20px;
+}
+
+.text_histoire .p2 {
+    height: auto;
+}
+
+.text_histoire h1 {
+    height: auto;
+    width: auto;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(59, 105, 204);
+}
+
+img {
+    height: 80vh;
+}
+
+.abonner {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: rgb(59, 105, 204);
+    border: 1px solid rgb(28, 86, 157);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 8px;
+    width: 195px;
+}
+
+.abonner:hover {
+    color: #fff;
+    background-color: #0056b3;
+}
+
+
+.abonner:active {
+    background-color: #3e718e;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.background {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 20%;
+    margin-top: 2%;
+}
+
+#fond1 {
+    width: 100%;
+    height: 130%;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 1%;
+}
+
+
+.text-overlay p {
+    width: 80vw;
+    font-size: 15px;
+}
+
+.text-overlay h1 {
+    font-size: 30px;
+}
+
+.text-overlay button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: rgb(59, 105, 204);
+    border: 1px solid rgb(28, 86, 157);
+    border-radius: 5px;
+    cursor: pointer;
+    width: 195px;
+}
+
+.text-overlay button:hover {
+    color: #fff;
+    background-color: #0056b3;
+}
+
+
+.map {
+    text-align: center;
+    color: rgb(28, 86, 157);
+    font-size: 30px;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.horizontal-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.line {
+    width: 40%;
+    height: 1px;
+    background-color: rgb(59, 105, 204);
+    margin: 10px 0;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#charlie{
+    height: 50px;
+    width: 50px;
+}
+a {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: rgb(59, 105, 204);
+    border: 1px solid rgb(28, 86, 157);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 8px;
+    width: 195px;
+}
+
+a:hover {
+    color: #fff;
+    background-color: #0056b3;
+}
+
+#image_patient{
+    height: 600px;
+    width: 600px;
+}
